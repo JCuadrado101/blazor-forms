@@ -817,7 +817,6 @@
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/staticwebassets.pack.json
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/staticwebassets.build.json
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/staticwebassets.development.json
-/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/bundle/blazor-forms.styles.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/projectbundle/blazor-forms.bundle.scp.css
@@ -826,3 +825,4 @@
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/refint/blazor-forms.dll
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/blazor-forms.pdb
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/ref/blazor-forms.dll
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Header/Header.razor.rz.scp.css
