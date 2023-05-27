@@ -829,3 +829,7 @@
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Body/Body.razor.rz.scp.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Buttons/ModalButton.razor.rz.scp.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Modal/Modal.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Title/Title.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Validation/CustomValidationMessage.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Containers/FormContainer.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Containers/InputContainer.razor.rz.scp.css

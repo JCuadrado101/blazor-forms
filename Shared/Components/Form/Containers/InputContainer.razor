@@ -1,0 +1,10 @@
+<div class="container input-group">
+    <span class="field-label-text">@FieldLabelText</span>
+        @ChildContent
+</div>
+
+@code
+{
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public string? FieldLabelText { get; set; }
+}

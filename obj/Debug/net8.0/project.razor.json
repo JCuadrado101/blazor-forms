@@ -46,6 +46,43 @@
         }
       },
       {
+        "HashCode": 355408059,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Pages.BasicForm._1_GettingStarted",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_1_GettingStarted"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Pages.BasicForm._1_GettingStarted",
+          "Common.TypeNameIdentifier": "_1_GettingStarted",
+          "Common.TypeNamespace": "blazor_forms.Pages.BasicForm",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1168966213,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Pages.BasicForm._1_GettingStarted",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Pages.BasicForm._1_GettingStarted"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Pages.BasicForm._1_GettingStarted",
+          "Common.TypeNameIdentifier": "_1_GettingStarted",
+          "Common.TypeNamespace": "blazor_forms.Pages.BasicForm",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 1546120655,
         "Kind": "Components.Component",
         "Name": "blazor_forms.App",
@@ -493,6 +530,696 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1532762428,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Title.Title",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Title"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Header",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Header",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Reference",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Reference",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Description",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
+          "Common.TypeNameIdentifier": "Title",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1701447829,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Title.Title",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Title.Title"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Header",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Header",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Reference",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Reference",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Description",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
+          "Common.TypeNameIdentifier": "Title",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1980537346,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CustomValidationMessage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Styling",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Styling",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage",
+          "Common.TypeNameIdentifier": "CustomValidationMessage",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1667407291,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Styling",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Styling",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage",
+          "Common.TypeNameIdentifier": "CustomValidationMessage",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 872023795,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "CustomValidationMessage"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage.ChildContent",
+          "Common.TypeNameIdentifier": "CustomValidationMessage",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 15391044,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage.ChildContent",
+          "Common.TypeNameIdentifier": "CustomValidationMessage",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -2124109653,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Containers.FormContainer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FormContainer"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Containers.FormContainer",
+          "Common.TypeNameIdentifier": "FormContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Containers",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -304260692,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Containers.FormContainer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Form.Containers.FormContainer"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Containers.FormContainer",
+          "Common.TypeNameIdentifier": "FormContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Containers",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1182487328,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Form.Containers.FormContainer.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "FormContainer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Containers.FormContainer.ChildContent",
+          "Common.TypeNameIdentifier": "FormContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Containers",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1951080974,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Form.Containers.FormContainer.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "blazor_forms.Shared.Components.Form.Containers.FormContainer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Containers.FormContainer.ChildContent",
+          "Common.TypeNameIdentifier": "FormContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Containers",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -218204174,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Containers.InputContainer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InputContainer"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "FieldLabelText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "FieldLabelText",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Containers.InputContainer",
+          "Common.TypeNameIdentifier": "InputContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Containers",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1218412406,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Containers.InputContainer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Form.Containers.InputContainer"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "FieldLabelText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "FieldLabelText",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Containers.InputContainer",
+          "Common.TypeNameIdentifier": "InputContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Containers",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1095988204,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Form.Containers.InputContainer.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "InputContainer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Containers.InputContainer.ChildContent",
+          "Common.TypeNameIdentifier": "InputContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Containers",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1553015744,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Form.Containers.InputContainer.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "blazor_forms.Shared.Components.Form.Containers.InputContainer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Containers.InputContainer.ChildContent",
+          "Common.TypeNameIdentifier": "InputContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Containers",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 443648879,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Input.TextInput",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TextInput"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ValidationFor",
+            "TypeName": "System.Linq.Expressions.Expression<System.Func<System.String>>",
+            "IsEditorRequired": true,
+            "Metadata": {
+              "Common.PropertyName": "ValidationFor",
+              "Common.GloballyQualifiedTypeName": "global::System.Linq.Expressions.Expression<global::System.Func<global::System.String>>"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Label",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Label",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsPrivate",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "IsPrivate",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsDisabled",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "IsDisabled",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AcceptNumber",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "AcceptNumber",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AdditionalAttributes",
+            "TypeName": "System.Collections.Generic.IReadOnlyDictionary<System.String, System.Object>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.AdditionalAttributes\">\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "AdditionalAttributes",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IReadOnlyDictionary<global::System.String, global::System.Object>"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Value",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.Value\">\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Value",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ValueChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.ValueChanged\">\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ValueChanged",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ValueExpression",
+            "TypeName": "System.Linq.Expressions.Expression<System.Func<System.String>>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.ValueExpression\">\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ValueExpression",
+              "Common.GloballyQualifiedTypeName": "global::System.Linq.Expressions.Expression<global::System.Func<global::System.String>>"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DisplayName",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.DisplayName\">\n            <summary>\n            Gets or sets the display name for this field.\n            <para>This value is used when generating error messages when the input value fails to parse correctly.</para>\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "DisplayName",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Input.TextInput",
+          "Common.TypeNameIdentifier": "TextInput",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Input",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 350864993,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Input.TextInput",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Form.Input.TextInput"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ValidationFor",
+            "TypeName": "System.Linq.Expressions.Expression<System.Func<System.String>>",
+            "IsEditorRequired": true,
+            "Metadata": {
+              "Common.PropertyName": "ValidationFor",
+              "Common.GloballyQualifiedTypeName": "global::System.Linq.Expressions.Expression<global::System.Func<global::System.String>>"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Label",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Label",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsPrivate",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "IsPrivate",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsDisabled",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "IsDisabled",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AcceptNumber",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "AcceptNumber",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AdditionalAttributes",
+            "TypeName": "System.Collections.Generic.IReadOnlyDictionary<System.String, System.Object>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.AdditionalAttributes\">\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "AdditionalAttributes",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IReadOnlyDictionary<global::System.String, global::System.Object>"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Value",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.Value\">\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Value",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ValueChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.ValueChanged\">\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ValueChanged",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ValueExpression",
+            "TypeName": "System.Linq.Expressions.Expression<System.Func<System.String>>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.ValueExpression\">\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ValueExpression",
+              "Common.GloballyQualifiedTypeName": "global::System.Linq.Expressions.Expression<global::System.Func<global::System.String>>"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DisplayName",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Forms.InputBase`1.DisplayName\">\n            <summary>\n            Gets or sets the display name for this field.\n            <para>This value is used when generating error messages when the input value fails to parse correctly.</para>\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "DisplayName",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Input.TextInput",
+          "Common.TypeNameIdentifier": "TextInput",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Input",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
         }
       },
       {
@@ -14851,6 +15578,181 @@
         }
       },
       {
+        "HashCode": -1443641406,
+        "Kind": "Components.Bind",
+        "Name": "blazor_forms.Shared.Components.Form.Input.TextInput",
+        "AssemblyName": "blazor-forms",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TextInput",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "TextInput",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Input.TextInput",
+          "Common.TypeNameIdentifier": "TextInput",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Input",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 904633961,
+        "Kind": "Components.Bind",
+        "Name": "blazor_forms.Shared.Components.Form.Input.TextInput",
+        "AssemblyName": "blazor-forms",
+        "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Form.Input.TextInput",
+            "Attributes": [
+              {
+                "Name": "@bind-Value",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          },
+          {
+            "TagName": "blazor_forms.Shared.Components.Form.Input.TextInput",
+            "Attributes": [
+              {
+                "Name": "@bind-Value:get",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              },
+              {
+                "Name": "@bind-Value:set",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-Value",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Documentation": "Binds the provided expression to the 'Value' property and a change event delegate to the 'ValueChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "Value"
+            },
+            "BoundAttributeParameters": [
+              {
+                "Name": "get",
+                "TypeName": "System.Object",
+                "Documentation": "Specifies the expression to use for binding the value to the attribute.",
+                "Metadata": {
+                  "Common.PropertyName": "Get",
+                  "Components.Bind.AlternativeNotation": "True"
+                }
+              },
+              {
+                "Name": "set",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies the expression to use for updating the bound value when a new value is available.",
+                "Metadata": {
+                  "Common.PropertyName": "Set"
+                }
+              },
+              {
+                "Name": "after",
+                "TypeName": "System.Delegate",
+                "Documentation": "Specifies an action to run after the new value has been set.",
+                "Metadata": {
+                  "Common.PropertyName": "After"
+                }
+              }
+            ]
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Input.TextInput",
+          "Common.TypeNameIdentifier": "TextInput",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Input",
+          "Components.Bind.ChangeAttribute": "ValueChanged",
+          "Components.Bind.ExpressionAttribute": "ValueExpression",
+          "Components.Bind.ValueAttribute": "Value",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
         "HashCode": -398332377,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
@@ -16164,8 +17066,23 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Containers/FormContainer.razor",
+      "TargetPath": "Shared\\Components\\Form\\Containers\\FormContainer.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Buttons/ModalButton.razor",
       "TargetPath": "Shared\\Components\\Buttons\\ModalButton.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Containers/InputContainer.razor",
+      "TargetPath": "Shared\\Components\\Form\\Containers\\InputContainer.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Pages/BasicForm/1_GettingStarted.razor",
+      "TargetPath": "Pages\\BasicForm\\1_GettingStarted.razor",
       "FileKind": "component"
     },
     {
@@ -16174,13 +17091,28 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Validation/CustomValidationMessage.razor",
+      "TargetPath": "Shared\\Components\\Form\\Validation\\CustomValidationMessage.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Input/TextInput.razor",
+      "TargetPath": "Shared\\Components\\Form\\Input\\TextInput.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Title/Title.razor",
+      "TargetPath": "Shared\\Components\\Title\\Title.razor",
       "FileKind": "component"
     },
     {

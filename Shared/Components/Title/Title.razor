@@ -1,0 +1,32 @@
+<div class="title-container">
+        <span class="header-text">@Header</span>
+        <p class="description-text">@Description</p>
+        @if(Reference != null)
+        {
+            <a class="reference-text" @onclick="showModal">@Reference</a>
+        }
+
+</div>
+<Modal ShowModal=@ShowModal ModalEvents="@CloseModal" ModalTitle="Important Information">
+      <p>PSECU important information about procedures for opening a New Account...Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Commodo cursus sit urna erat vitae. In sit dictumst aliquam diam cursus enim eu. Mollis fermentum in faucibus sapien. Elit pellentesque in ut auctor hendrerit laoreet pretium. Urna pharetra purus mi gravida amet donec nunc. Facilisis in eget vitae sit ligula a in nullam et.</p>
+</Modal>
+
+@code
+{
+    [Parameter] public string? Header { get; set; }
+    [Parameter] public string? Reference { get; set; }
+    [Parameter] public string? Description { get; set; }
+    private bool ShowModal { get; set; } = false;
+
+    private void CloseModal()
+    {
+        ShowModal = false;
+    }
+    private void showModal()
+    {
+        ShowModal = true;
+    }
+
+
+}

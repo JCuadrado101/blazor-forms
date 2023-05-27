@@ -1,0 +1,79 @@
+@using System.Linq.Expressions
+@inject IJSRuntime JSRuntime;
+@inherits InputBase<string>
+
+<InputContainer FieldLabelText="@Label">
+    <input class="input-style @AllowsNumber() @CssClass" @bind="@CurrentValue" style="border-radius: 3px;" type="@InputType" id="@Id" disabled="@IsDisabled"/>
+        @if(IsPrivate != null)
+        {
+            <VisibleEyeButtonComponent ShowPassword="@changeTextVisibility" EyeVisible="@EyeIcon"/>
+
+        }
+        <div class="form-control-validation">
+            <CustomValidationMessage For="@ValidationFor"/>
+        </div>
+</InputContainer>
+
+@code {
+    [Parameter, EditorRequired] public Expression<Func<string>> ValidationFor { get; set; } = default!;
+    [Parameter] public string? Label { get; set; }
+    [Parameter] public bool? IsPrivate { get; set; }
+    [Parameter] public string? Id { get; set; }
+    [Parameter] public bool? IsDisabled { get; set; }
+    private string? InputType { get; set; }
+    private string? EyeIcon { get; set; } = "fa-eye";
+    [Parameter] public bool? AcceptNumber { get; set; }
+    private string? AllowsNumber()
+    {
+        if(AcceptNumber == null)
+        {
+            return "text-input";
+        }
+        else
+        {
+            return "";
+        }
+    }
+
+    protected override bool TryParseValueFromString(string? value, out string result, out string validationErrorMessage)
+    {
+        result = value!;
+        validationErrorMessage = null!;
+        return true;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("limitInputToLetters");
+        }
+    }
+
+     private void changeTextVisibility()
+    {
+        if(InputType == "password")
+        {
+            InputType = "text";
+            EyeIcon = "fa-eye-slash";
+        }
+        else
+        {
+            InputType = "password";
+            EyeIcon = "fa-eye";
+        }
+    }
+
+    protected override void OnInitialized()
+    {
+        if(IsPrivate == null)
+        {
+            InputType = "text";
+        }
+        else
+        {
+            InputType = "password";
+        }
+    }
+}
+

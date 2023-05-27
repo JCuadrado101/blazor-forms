@@ -1,0 +1,12 @@
+.container[b-tn8c29rio5] {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    margin: 10px auto;
+
+    > .field-label-text {
+        font-size: 14px;
+        /* font-weight: 700; */
+        padding-bottom: 5px;
+    }
+}

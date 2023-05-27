@@ -1,0 +1,14 @@
+<div class="validation-container" style="@Styling;">
+    <div class="validation-text-container">
+        <div class="validation-title">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <p class="validation-title-text">The following items need your attention:</p>
+        </div>
+        @ChildContent
+    </div>
+</div>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public string? Styling { get; set; }
+}

@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jordancuadrado/Documents/blazor-forms/Pages/BasicForm/1_GettingStarted.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmFzaWNGb3JtLzFfR2V0dGluZ1N0YXJ0ZWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jordancuadrado/Documents/blazor-forms/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Input/TextInput.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9JbnB1dC9UZXh0SW5wdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/MainLayout.razor]
@@ -44,6 +52,18 @@ build_metadata.AdditionalFiles.CssScope = b-yipxvmwkpu
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9vdGVyL0Zvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lx5uuwzknn
 
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Containers/FormContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9Db250YWluZXJzL0Zvcm1Db250YWluZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lqv7dltalv
+
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Containers/InputContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9Db250YWluZXJzL0lucHV0Q29udGFpbmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-tn8c29rio5
+
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Validation/CustomValidationMessage.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9WYWxpZGF0aW9uL0N1c3RvbVZhbGlkYXRpb25NZXNzYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-w9yutuxteb
+
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Header/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvSGVhZGVyL0hlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-nucf7rjl2v
@@ -51,3 +71,7 @@ build_metadata.AdditionalFiles.CssScope = b-nucf7rjl2v
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Modal/Modal.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTW9kYWwvTW9kYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-1blu7h36js
+
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Title/Title.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvVGl0bGUvVGl0bGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-spcv6xjfg7
