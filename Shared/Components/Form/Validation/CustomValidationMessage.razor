@@ -1,14 +1,29 @@
-<div class="validation-container" style="@Styling;">
-    <div class="validation-text-container">
-        <div class="validation-title">
-            <i class="fa-solid fa-triangle-exclamation"></i>
-            <p class="validation-title-text">The following items need your attention:</p>
-        </div>
-        @ChildContent
+@using System.Linq.Expressions
+
+@typeparam TValue
+@implements IDisposable
+
+@foreach (var message in EditContext!.GetValidationMessages(_fieldIdentifier))
+{
+    <div class="message" style=@SummaryText()>
+        <i class="fa-solid @Icon()" style=@IconStyling()></i> @message
     </div>
-</div>
+}
 
 @code {
-    [Parameter] public RenderFragment? ChildContent { get; set; }
-    [Parameter] public string? Styling { get; set; }
+    [CascadingParameter] private EditContext? EditContext { get; set; }
+    [Parameter] public Expression<Func<TValue>>? For { get; set; }
+    [Parameter] public bool? isValidationSummary { get; set; }
+    private FieldIdentifier _fieldIdentifier;
+    protected override void OnInitialized()
+    {
+        _fieldIdentifier = FieldIdentifier.Create(For!);
+        EditContext!.OnValidationStateChanged += HandleValidationStateChanged!;
+    }
+    private void HandleValidationStateChanged(object o, ValidationStateChangedEventArgs args) => StateHasChanged();
+    public void Dispose() =>  EditContext!.OnValidationStateChanged -= HandleValidationStateChanged!;
+
+    private string Icon() => isValidationSummary == null ? "fa-circle-exclamation" :  "fa-circle";
+    private string IconStyling() => isValidationSummary == null ? "font-size: 16px; color: hsl(0, 100%, 40%); width: 20px" : "font-size: 4px; color: black; margin-left: 40px; width: 12px";
+    private string SummaryText() => isValidationSummary == null ? "color: hsl(0, 100%, 40%);" :  "color: black; font-size: 14px";
 }

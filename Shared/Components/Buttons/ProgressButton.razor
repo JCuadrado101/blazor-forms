@@ -1,0 +1,39 @@
+<DividerComponent BorderStyling="margin-top: 40px;"/>
+<div class="btn-container">
+    <div class="btn-content-container">
+        @if(CanGoBack == null)
+        {
+            <input type="submit" id="continue" value="@ButtonName()" onclick="@OnClick" style="margin-top: 20px;"/>
+        }
+        else
+        {
+            <input type="button" id="back" value="Back" onclick=@PreviousStep/>
+            <input type="submit" id="continue" value="@ButtonName()" onclick="@OnClick" style="margin-top: 20px;"/>
+
+        }
+    </div>
+</div>
+
+@code
+{
+    [Parameter] public EventCallback OnClick { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public EventCallback PreviousStep { get; set; }
+    [Parameter] public bool? CanGoBack { get; set; }
+    [Parameter] public string? SubmitBtnName { get; set; }
+
+    private string ButtonName()
+    {
+        if( SubmitBtnName == null || SubmitBtnName == "" )
+        {
+            return "Continue";
+        }
+        else
+        {
+            return SubmitBtnName;
+        }
+    }
+
+}
+
+

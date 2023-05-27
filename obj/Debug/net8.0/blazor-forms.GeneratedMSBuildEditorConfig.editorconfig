@@ -28,10 +28,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Input/TextInput.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9JbnB1dC9UZXh0SW5wdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +44,14 @@ build_metadata.AdditionalFiles.CssScope = b-i2qe4w0kio
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvQnV0dG9ucy9Nb2RhbEJ1dHRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-yipxvmwkpu
 
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Buttons/ProgressButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvQnV0dG9ucy9Qcm9ncmVzc0J1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-cqdpl21fjd
+
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Buttons/VisibleEyeButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvQnV0dG9ucy9WaXNpYmxlRXllQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xbvg3p1uys
+
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Footer/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9vdGVyL0Zvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lx5uuwzknn
@@ -59,6 +63,14 @@ build_metadata.AdditionalFiles.CssScope = b-lqv7dltalv
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Containers/InputContainer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9Db250YWluZXJzL0lucHV0Q29udGFpbmVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-tn8c29rio5
+
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Input/TextInput.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9JbnB1dC9UZXh0SW5wdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sphswcpo0j
+
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Validation/CustomValidationAlertContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9WYWxpZGF0aW9uL0N1c3RvbVZhbGlkYXRpb25BbGVydENvbnRhaW5lci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-1zpc2yfh2o
 
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Validation/CustomValidationMessage.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybS9WYWxpZGF0aW9uL0N1c3RvbVZhbGlkYXRpb25NZXNzYWdlLnJhem9y

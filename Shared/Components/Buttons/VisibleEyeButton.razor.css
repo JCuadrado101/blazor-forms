@@ -1,0 +1,9 @@
+.fa-eye, .fa-eye-slash  {
+    position: absolute;
+    right: 33px;
+    top: 47px;
+    cursor: pointer;
+    color: teal;
+    font-size: 10px;
+    /* width: 10px; */
+}

@@ -69,6 +69,68 @@
 
 
 
+/* /Shared/Components/Buttons/ProgressButton.razor.rz.scp.css */
+.btn-container[b-cqdpl21fjd]{
+    max-width: 950px;
+    margin: 0 auto
+}
+
+.btn-content-container[b-cqdpl21fjd] {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    max-width: 1000px;
+    align-content: center;
+    align-items: center;
+}
+
+#continue[b-cqdpl21fjd] {
+    width: 115px;
+    height: 40px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #177D78;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+#continue:hover[b-cqdpl21fjd] {
+    background-color: #084441;
+}
+
+#back[b-cqdpl21fjd] {
+    width: 115px;
+    height: 40px;
+    margin: 20px 0px 5px 0px;
+    border-radius: 5px;
+    background-color: white;
+    color: #177D78;
+    font-size: 14px;
+    font-weight:650;
+    border: 1px solid #177D78;
+}
+
+@media(max-width: 500px) {
+    .btn-content-container[b-cqdpl21fjd] {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    #continue[b-cqdpl21fjd], #back[b-cqdpl21fjd] {
+        width: 50vw;
+    }
+}
+/* /Shared/Components/Buttons/VisibleEyeButton.razor.rz.scp.css */
+.fa-eye[b-xbvg3p1uys], .fa-eye-slash[b-xbvg3p1uys]  {
+    position: absolute;
+    right: 33px;
+    top: 47px;
+    cursor: pointer;
+    color: teal;
+    font-size: 10px;
+    /* width: 10px; */
+}
 /* /Shared/Components/Footer/Footer.razor.rz.scp.css */
 .footer-container[b-lx5uuwzknn] {
     display: flex;
@@ -148,8 +210,23 @@ a[b-lx5uuwzknn] {
         padding-bottom: 5px;
     }
 }
-/* /Shared/Components/Form/Validation/CustomValidationMessage.razor.rz.scp.css */
-.validation-container[b-w9yutuxteb] {
+/* /Shared/Components/Form/Input/TextInput.razor.rz.scp.css */
+.input-style[b-sphswcpo0j] {
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    border: 1px solid gray;
+}
+
+.input-style:focus[b-sphswcpo0j] {
+    outline: 2px solid #177D78;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+}
+/* /Shared/Components/Form/Validation/CustomValidationAlertContainer.razor.rz.scp.css */
+.validation-container[b-1zpc2yfh2o] {
     flex-direction: column;
     max-width: 525px;
     margin: 0px auto;
@@ -158,37 +235,43 @@ a[b-lx5uuwzknn] {
     background-color: hsl(0, 100%, 40%);
     color: black;
     border-radius: 3px 3px 25px 25px;
-
-    > .validation-text-container {
-        background-color: hsl(0, 95%, 93%);
-        padding: 10px;
-        font-size: 14px;
-        border-radius: 0px 0px 5px 5px;
-
-        > .validation-title {
-            display: flex;
-            flex-direction: row;
-            justify-content: start;
-            align-content: center;
-            align-items: center;
-
-            > .fa-triangle-exclamation {
-                color: hsl(0, 100%, 40%);
-                font-size: 20px; 
-                margin-bottom: 15px;
-            }
-
-            > .validation-title-text[b-w9yutuxteb] {
-                padding-left: 10px; 
-                font-size: 14px
-            }
-        }
-    }
 }
 
+.validation-text-container[b-1zpc2yfh2o] {
+    background-color: hsl(0, 95%, 93%);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 0px 0px 5px 5px;
+}
 
+.validation-title[b-1zpc2yfh2o] {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+}
 
+.fa-triangle-exclamation[b-1zpc2yfh2o] {
+    color: hsl(0, 100%, 40%);
+    font-size: 20px; 
+    margin-bottom: 15px;
+}
 
+.validation-title-text[b-1zpc2yfh2o] {
+    padding-left: 10px; 
+    font-size: 14px
+}
+/* /Shared/Components/Form/Validation/CustomValidationMessage.razor.rz.scp.css */
+.message[b-w9yutuxteb] {
+    padding-top: 2px;
+    font-size: 12px;
+    color: hsl(0, 100%, 40%);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 3.5px;
+}
 /* /Shared/Components/Header/Header.razor.rz.scp.css */
 .top-row[b-nucf7rjl2v] {
     background-color: #172C2F;

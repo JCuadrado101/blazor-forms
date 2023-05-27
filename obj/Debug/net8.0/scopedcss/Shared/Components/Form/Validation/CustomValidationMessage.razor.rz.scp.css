@@ -1,40 +1,9 @@
-.validation-container[b-w9yutuxteb] {
-    flex-direction: column;
-    max-width: 525px;
-    margin: 0px auto;
-    padding-top: 4px;
-    margin-bottom: 25px;
-    background-color: hsl(0, 100%, 40%);
-    color: black;
-    border-radius: 3px 3px 25px 25px;
-
-    > .validation-text-container {
-        background-color: hsl(0, 95%, 93%);
-        padding: 10px;
-        font-size: 14px;
-        border-radius: 0px 0px 5px 5px;
-
-        > .validation-title {
-            display: flex;
-            flex-direction: row;
-            justify-content: start;
-            align-content: center;
-            align-items: center;
-
-            > .fa-triangle-exclamation {
-                color: hsl(0, 100%, 40%);
-                font-size: 20px; 
-                margin-bottom: 15px;
-            }
-
-            > .validation-title-text[b-w9yutuxteb] {
-                padding-left: 10px; 
-                font-size: 14px
-            }
-        }
-    }
+.message[b-w9yutuxteb] {
+    padding-top: 2px;
+    font-size: 12px;
+    color: hsl(0, 100%, 40%);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 3.5px;
 }
-
-
-
-

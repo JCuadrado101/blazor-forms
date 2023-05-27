@@ -6,7 +6,7 @@
     <input class="input-style @AllowsNumber() @CssClass" @bind="@CurrentValue" style="border-radius: 3px;" type="@InputType" id="@Id" disabled="@IsDisabled"/>
         @if(IsPrivate != null)
         {
-            <VisibleEyeButtonComponent ShowPassword="@changeTextVisibility" EyeVisible="@EyeIcon"/>
+            <VisibleEyeButton ShowPassword="@changeTextVisibility" EyeVisible="@EyeIcon"/>
 
         }
         <div class="form-control-validation">
@@ -41,14 +41,14 @@
         validationErrorMessage = null!;
         return true;
     }
-
+@* 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if(firstRender)
         {
             await JSRuntime.InvokeVoidAsync("limitInputToLetters");
         }
-    }
+    } *@
 
      private void changeTextVisibility()
     {

@@ -833,3 +833,7 @@
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Validation/CustomValidationMessage.razor.rz.scp.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Containers/FormContainer.razor.rz.scp.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Containers/InputContainer.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Buttons/VisibleEyeButton.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Buttons/ProgressButton.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Validation/CustomValidationAlertContainer.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Input/TextInput.razor.rz.scp.css

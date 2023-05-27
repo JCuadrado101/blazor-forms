@@ -1,7 +1,7 @@
 @page "/getstarted"
-@inject IDispatcher dispatcher
+@* @inject IDispatcher dispatcher *@
 @inject NavigationManager Navigation
-@using Microsoft.AspNetCore.WebUtilities
+@* @using Microsoft.AspNetCore.WebUtilities *@
 
 <Title
     Header="Let's get to know you"
@@ -17,10 +17,10 @@
         <CustomValidationMessage For="@(() => BasicInfoModel.DateOfBirth)" isValidationSummary="true"/>
         <CustomValidationMessage For="@(() => BasicInfoModel.PhoneNumber)" isValidationSummary="true"/>
     </CustomValidationAlertContainer>
-    <FormContainerComponent>
+    <FormContainer>
         <TextInput Label="First Name" @bind-Value="BasicInfoModel.FirstName" ValidationFor="@(() => BasicInfoModel.FirstName)"/>
         <TextInput Label="Last Name" @bind-Value="BasicInfoModel.LastName" ValidationFor="@(() => BasicInfoModel.LastName)"/>
-        <MaskInputComponent
+        @* <MaskInputComponent
             Label="Serial Security Number/TIN"
             @bind-Value="BasicInfoModel.SSN"
             ValidationFor="@(() => BasicInfoModel.SSN)"
@@ -34,25 +34,25 @@
             ValidationFor="@(() => BasicInfoModel.PhoneNumber)"
             data-mask="(000) 000-0000"
             placeholder="(123) 123-4567"
-        />
+        /> *@
         @* NEED TO DESIGN CUSTOM DATE COMPONENT BELOW *@
-        <InputContainerComponent FieldLabelText="Date of Birth">
+        <InputContainer FieldLabelText="Date of Birth">
             <InputDate @bind-Value="BasicInfoModel.DateOfBirth" class="input-style date-input"/>
             <CustomValidationMessage For="@(() => BasicInfoModel.DateOfBirth)"/>
-        </InputContainerComponent>
+        </InputContainer>
         @* NEED TO DESIGN CUSTOM DATE COMPONENT ABOVE *@
         <div class="single-checkbox" style="display: flex; flex-direction: row; justify-content: center">
             <InputCheckbox id="MailingAddress" @bind-Value="@BasicInfoModel.IsCallAccepted"/>
             <label For="MailingAddress" class="mailing-label">	By checking this box, I agree to receive autodialed phone calls or text messages about any of my loan or share accounts at all mobile phone numbers that I provide to PSECU. I understand that I am not required to give this consent as a condition of receiving products or services from PSECU.</Label>
         </div>
-    </FormContainerComponent>
+    </FormContainer>
     @if(EditMode)
     {
-        <ProgressButtonComponents OnClick="@Navigate" SubmitBtnName="Save"/>
+        <ProgressButton OnClick="@Navigate" SubmitBtnName="Save"/>
     }
     else
     {
-        <ProgressButtonComponents OnClick="@OnSubmit"/>
+        <ProgressButton OnClick="@OnSubmit"/>
     }
 </EditForm>
 
@@ -86,7 +86,7 @@
             phoneNumber: BasicInfoModel.PhoneNumber
         )); *@
     }
-    protected override void OnInitialized()
+    @* protected override void OnInitialized()
     {
         BasicInfoModel.FirstName = BasicInformation.Value.FirstName;
         BasicInfoModel.LastName = BasicInformation.Value.LastName;
@@ -100,5 +100,5 @@
             {
                 EditMode = true;
             }
-    }
+    } *@
 }

@@ -1,0 +1,9 @@
+<span class="input-group-append">
+    <i class="fa-solid @EyeVisible password-eye" @onclick="@ShowPassword"></i>
+</span>
+
+@code
+{
+    [Parameter] public EventCallback ShowPassword { get; set; }
+    [Parameter] public string? EyeVisible { get; set; }
+}

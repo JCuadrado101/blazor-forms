@@ -9,80 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 931480466,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.Index",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1223089280,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.Index",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 355408059,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.BasicForm._1_GettingStarted",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "_1_GettingStarted"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.BasicForm._1_GettingStarted",
-          "Common.TypeNameIdentifier": "_1_GettingStarted",
-          "Common.TypeNamespace": "blazor_forms.Pages.BasicForm",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1168966213,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.BasicForm._1_GettingStarted",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Pages.BasicForm._1_GettingStarted"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.BasicForm._1_GettingStarted",
-          "Common.TypeNameIdentifier": "_1_GettingStarted",
-          "Common.TypeNamespace": "blazor_forms.Pages.BasicForm",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1546120655,
         "Kind": "Components.Component",
         "Name": "blazor_forms.App",
@@ -120,108 +46,6 @@
         }
       },
       {
-        "HashCode": 1426129182,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Body.Body",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Body.Body",
-          "Common.TypeNameIdentifier": "Body",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Body",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1751168868,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Body.Body",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Shared.Components.Body.Body"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Body.Body",
-          "Common.TypeNameIdentifier": "Body",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Body",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 718861795,
-        "Kind": "Components.ChildContent",
-        "Name": "blazor_forms.Shared.Components.Body.Body.ChildContent",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "Body"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Body.Body.ChildContent",
-          "Common.TypeNameIdentifier": "Body",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1398565216,
-        "Kind": "Components.ChildContent",
-        "Name": "blazor_forms.Shared.Components.Body.Body.ChildContent",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "blazor_forms.Shared.Components.Body.Body"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Body.Body.ChildContent",
-          "Common.TypeNameIdentifier": "Body",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
         "HashCode": -2128021603,
         "Kind": "Components.Component",
         "Name": "blazor_forms.Shared.Components.Footer.Footer",
@@ -254,43 +78,6 @@
           "Common.TypeName": "blazor_forms.Shared.Components.Footer.Footer",
           "Common.TypeNameIdentifier": "Footer",
           "Common.TypeNamespace": "blazor_forms.Shared.Components.Footer",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1263607938,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Header.Header",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Header"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
-          "Common.TypeNameIdentifier": "Header",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -215598109,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Header.Header",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Shared.Components.Header.Header"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
-          "Common.TypeNameIdentifier": "Header",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -354,6 +141,263 @@
           "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -647745538,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Buttons.VisibleEyeButton",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VisibleEyeButton"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowPassword",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "ShowPassword",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "EyeVisible",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "EyeVisible",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Buttons.VisibleEyeButton",
+          "Common.TypeNameIdentifier": "VisibleEyeButton",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 897483674,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Buttons.VisibleEyeButton",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Buttons.VisibleEyeButton"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowPassword",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "ShowPassword",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "EyeVisible",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "EyeVisible",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Buttons.VisibleEyeButton",
+          "Common.TypeNameIdentifier": "VisibleEyeButton",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1651742987,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Buttons.ProgressButton",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProgressButton"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "PreviousStep",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "PreviousStep",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CanGoBack",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "CanGoBack",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SubmitBtnName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SubmitBtnName",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Buttons.ProgressButton",
+          "Common.TypeNameIdentifier": "ProgressButton",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -310635795,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Buttons.ProgressButton",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Buttons.ProgressButton"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "PreviousStep",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "PreviousStep",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CanGoBack",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "CanGoBack",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SubmitBtnName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SubmitBtnName",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Buttons.ProgressButton",
+          "Common.TypeNameIdentifier": "ProgressButton",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 907045037,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Buttons.ProgressButton.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "ProgressButton"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Buttons.ProgressButton.ChildContent",
+          "Common.TypeNameIdentifier": "ProgressButton",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -269941120,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Buttons.ProgressButton.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "blazor_forms.Shared.Components.Buttons.ProgressButton"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Buttons.ProgressButton.ChildContent",
+          "Common.TypeNameIdentifier": "ProgressButton",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
         }
       },
       {
@@ -527,221 +571,6 @@
           "Common.TypeName": "blazor_forms.Shared.Components.Modal.Modal.ChildContent",
           "Common.TypeNameIdentifier": "Modal",
           "Common.TypeNamespace": "blazor_forms.Shared.Components.Modal",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1532762428,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Title.Title",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Title"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Header",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Header",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Reference",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Reference",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Description",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Description",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
-          "Common.TypeNameIdentifier": "Title",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1701447829,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Title.Title",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Shared.Components.Title.Title"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Header",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Header",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Reference",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Reference",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Description",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Description",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
-          "Common.TypeNameIdentifier": "Title",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1980537346,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CustomValidationMessage"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Styling",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Styling",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage",
-          "Common.TypeNameIdentifier": "CustomValidationMessage",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1667407291,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Styling",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Styling",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage",
-          "Common.TypeNameIdentifier": "CustomValidationMessage",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 872023795,
-        "Kind": "Components.ChildContent",
-        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage.ChildContent",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "CustomValidationMessage"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage.ChildContent",
-          "Common.TypeNameIdentifier": "CustomValidationMessage",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 15391044,
-        "Kind": "Components.ChildContent",
-        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage.ChildContent",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage.ChildContent",
-          "Common.TypeNameIdentifier": "CustomValidationMessage",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
@@ -967,6 +796,229 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 418340078,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CustomValidationAlertContainer"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Styling",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Styling",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer",
+          "Common.TypeNameIdentifier": "CustomValidationAlertContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1760636905,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Styling",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Styling",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer",
+          "Common.TypeNameIdentifier": "CustomValidationAlertContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1096592094,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "CustomValidationAlertContainer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer.ChildContent",
+          "Common.TypeNameIdentifier": "CustomValidationAlertContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -2054835535,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationAlertContainer.ChildContent",
+          "Common.TypeNameIdentifier": "CustomValidationAlertContainer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -26017698,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage<TValue>",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CustomValidationMessage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TValue",
+            "TypeName": "System.Type",
+            "Documentation": "Specifies the type of the type parameter TValue for the blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage<TValue> component.",
+            "Metadata": {
+              "Common.PropertyName": "TValue",
+              "Components.TypeParameter": "True",
+              "Components.TypeParameterIsCascading": "False"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "For",
+            "TypeName": "System.Linq.Expressions.Expression<System.Func<TValue>>",
+            "Metadata": {
+              "Common.PropertyName": "For",
+              "Common.GloballyQualifiedTypeName": "global::System.Linq.Expressions.Expression<global::System.Func<TValue>>",
+              "Components.GenericTyped": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "isValidationSummary",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "isValidationSummary",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage<TValue>",
+          "Common.TypeNameIdentifier": "CustomValidationMessage",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Components.GenericTyped": "True",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -24359427,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage<TValue>",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TValue",
+            "TypeName": "System.Type",
+            "Documentation": "Specifies the type of the type parameter TValue for the blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage<TValue> component.",
+            "Metadata": {
+              "Common.PropertyName": "TValue",
+              "Components.TypeParameter": "True",
+              "Components.TypeParameterIsCascading": "False"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "For",
+            "TypeName": "System.Linq.Expressions.Expression<System.Func<TValue>>",
+            "Metadata": {
+              "Common.PropertyName": "For",
+              "Common.GloballyQualifiedTypeName": "global::System.Linq.Expressions.Expression<global::System.Func<TValue>>",
+              "Components.GenericTyped": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "isValidationSummary",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "isValidationSummary",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Form.Validation.CustomValidationMessage<TValue>",
+          "Common.TypeNameIdentifier": "CustomValidationMessage",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Form.Validation",
+          "Components.GenericTyped": "True",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
         }
       },
       {
@@ -1223,6 +1275,240 @@
         }
       },
       {
+        "HashCode": -1263607938,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Header.Header",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Header"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
+          "Common.TypeNameIdentifier": "Header",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -215598109,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Header.Header",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Header.Header"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
+          "Common.TypeNameIdentifier": "Header",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1426129182,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Body.Body",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Body.Body",
+          "Common.TypeNameIdentifier": "Body",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Body",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1751168868,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Body.Body",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Body.Body"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Body.Body",
+          "Common.TypeNameIdentifier": "Body",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Body",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 718861795,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Body.Body.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Body"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Body.Body.ChildContent",
+          "Common.TypeNameIdentifier": "Body",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1398565216,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Body.Body.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "blazor_forms.Shared.Components.Body.Body"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Body.Body.ChildContent",
+          "Common.TypeNameIdentifier": "Body",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1532762428,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Title.Title",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Title"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Header",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Header",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Reference",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Reference",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Description",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
+          "Common.TypeNameIdentifier": "Title",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1701447829,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Title.Title",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Title.Title"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Header",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Header",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Reference",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Reference",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Description",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
+          "Common.TypeNameIdentifier": "Title",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 90421896,
         "Kind": "Components.Component",
         "Name": "blazor_forms.Shared.MainLayout",
@@ -1326,6 +1612,104 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 931480466,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Pages.Index",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "blazor_forms.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1223089280,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Pages.Index",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "blazor_forms.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -762569731,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Pages.BasicForm._1_GettingStarted",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_1_GettingStarted"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "EventAfterSubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "EventAfterSubmit",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Pages.BasicForm._1_GettingStarted",
+          "Common.TypeNameIdentifier": "_1_GettingStarted",
+          "Common.TypeNamespace": "blazor_forms.Pages.BasicForm",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1847932896,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Pages.BasicForm._1_GettingStarted",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Pages.BasicForm._1_GettingStarted"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "EventAfterSubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "EventAfterSubmit",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Pages.BasicForm._1_GettingStarted",
+          "Common.TypeNameIdentifier": "_1_GettingStarted",
+          "Common.TypeNamespace": "blazor_forms.Pages.BasicForm",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
         }
       },
       {
@@ -17086,6 +17470,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Validation/CustomValidationAlertContainer.razor",
+      "TargetPath": "Shared\\Components\\Form\\Validation\\CustomValidationAlertContainer.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Buttons/VisibleEyeButton.razor",
+      "TargetPath": "Shared\\Components\\Buttons\\VisibleEyeButton.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Modal/Modal.razor",
       "TargetPath": "Shared\\Components\\Modal\\Modal.razor",
       "FileKind": "component"
@@ -17099,6 +17493,11 @@
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Buttons/ProgressButton.razor",
+      "TargetPath": "Shared\\Components\\Buttons\\ProgressButton.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Form/Input/TextInput.razor",
