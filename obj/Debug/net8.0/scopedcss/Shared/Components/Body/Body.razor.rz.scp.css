@@ -1,0 +1,18 @@
+.container[b-i2qe4w0kio] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: -80px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.sub-container[b-i2qe4w0kio] {
+    margin: 0 auto;
+    width: 100%;
+}

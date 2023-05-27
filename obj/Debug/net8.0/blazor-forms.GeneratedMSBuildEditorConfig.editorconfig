@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Body/Body.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvQm9keS9Cb2R5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-i2qe4w0kio
+
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Footer/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9vdGVyL0Zvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lx5uuwzknn

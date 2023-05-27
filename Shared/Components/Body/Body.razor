@@ -1,0 +1,12 @@
+<div style="display: flex;">
+    <div class="container">
+        <div class="sub-container">
+            @ChildContent
+        </div>
+    </div>
+</div>
+
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+}
