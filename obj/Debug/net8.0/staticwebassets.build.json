@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r+45PnFYMawsTmkCthD7mpSCHCgBa+KjzGIlF5gUHoc=",
+  "Hash": "tiCTxnL6SUvB+U2XIW/ITJw+Qh+6j6aVOfiJGX4lzxk=",
   "Source": "blazor-forms",
   "BasePath": "/",
   "Mode": "Root",
@@ -6919,40 +6919,6 @@
       "OriginalItemSpec": "wwwroot/css/app.css"
     },
     {
-      "Identity": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/css/bootstrap/bootstrap.min.css",
-      "SourceId": "blazor-forms",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "css/bootstrap/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
-    },
-    {
-      "Identity": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/css/bootstrap/bootstrap.min.css.map",
-      "SourceId": "blazor-forms",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
-    },
-    {
       "Identity": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "blazor-forms",
       "SourceType": "Discovered",
@@ -7155,23 +7121,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
-    },
-    {
-      "Identity": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/sample-data/weather.json",
-      "SourceId": "blazor-forms",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sample-data/weather.json"
     }
   ]
 }

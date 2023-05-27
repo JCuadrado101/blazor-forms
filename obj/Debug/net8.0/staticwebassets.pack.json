@@ -17,14 +17,6 @@
       "PackagePath": "staticwebassets/css/app.css"
     },
     {
-      "Id": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/css/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
-    },
-    {
-      "Id": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/css/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
-    },
-    {
       "Id": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/css/open-iconic/FONT-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },
@@ -71,10 +63,6 @@
     {
       "Id": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
-    },
-    {
-      "Id": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/sample-data/weather.json",
-      "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.blazor-forms.Microsoft.AspNetCore.StaticWebAssets.props",

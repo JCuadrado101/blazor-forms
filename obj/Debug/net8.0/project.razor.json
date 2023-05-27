@@ -9,75 +9,75 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1263607938,
+        "HashCode": 931480466,
         "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Header.Header",
+        "Name": "blazor_forms.Pages.Index",
         "AssemblyName": "blazor-forms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Header"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
-          "Common.TypeNameIdentifier": "Header",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
+          "Common.TypeName": "blazor_forms.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "blazor_forms.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -215598109,
+        "HashCode": 1223089280,
         "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Header.Header",
+        "Name": "blazor_forms.Pages.Index",
         "AssemblyName": "blazor-forms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "blazor_forms.Shared.Components.Header.Header"
+            "TagName": "blazor_forms.Pages.Index"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
-          "Common.TypeNameIdentifier": "Header",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
+          "Common.TypeName": "blazor_forms.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "blazor_forms.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -2128021603,
+        "HashCode": 1546120655,
         "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Footer.Footer",
+        "Name": "blazor_forms.App",
         "AssemblyName": "blazor-forms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Footer"
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Footer.Footer",
-          "Common.TypeNameIdentifier": "Footer",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Footer",
+          "Common.TypeName": "blazor_forms.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "blazor_forms",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1401799186,
+        "HashCode": -16745223,
         "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Footer.Footer",
+        "Name": "blazor_forms.App",
         "AssemblyName": "blazor-forms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "blazor_forms.Shared.Components.Footer.Footer"
+            "TagName": "blazor_forms.App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Footer.Footer",
-          "Common.TypeNameIdentifier": "Footer",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Footer",
+          "Common.TypeName": "blazor_forms.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "blazor_forms",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -185,6 +185,80 @@
         }
       },
       {
+        "HashCode": -2128021603,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Footer.Footer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Footer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Footer.Footer",
+          "Common.TypeNameIdentifier": "Footer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Footer",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1401799186,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Footer.Footer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Footer.Footer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Footer.Footer",
+          "Common.TypeNameIdentifier": "Footer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Footer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1263607938,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Header.Header",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Header"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
+          "Common.TypeNameIdentifier": "Header",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -215598109,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Header.Header",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Header.Header"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
+          "Common.TypeNameIdentifier": "Header",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 90421896,
         "Kind": "Components.Component",
         "Name": "blazor_forms.Shared.MainLayout",
@@ -288,154 +362,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1546120655,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.App",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "blazor_forms",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -16745223,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.App",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "blazor_forms",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1667647175,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.Counter",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 20648137,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.Counter",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1071281878,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.FetchData",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1420367101,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.FetchData",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 931480466,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.Index",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1223089280,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.Index",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {
@@ -15996,18 +15922,8 @@
   "RootNamespace": "blazor-forms",
   "Documents": [
     {
-      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
