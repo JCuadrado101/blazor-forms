@@ -1,0 +1,11 @@
+<div class="btn-container">
+    <div class="btn-content-container">
+        <input type="submit" id="continue" value="CLOSE" onclick="@OnClick" />
+    </div>
+</div>
+
+@code
+{ 
+  [Parameter] public EventCallback OnClick { get; set; }
+}
+

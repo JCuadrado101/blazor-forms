@@ -259,6 +259,243 @@
         }
       },
       {
+        "HashCode": 636960310,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Buttons.ModalButton",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ModalButton"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Buttons.ModalButton",
+          "Common.TypeNameIdentifier": "ModalButton",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -742657046,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Buttons.ModalButton",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Buttons.ModalButton"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Buttons.ModalButton",
+          "Common.TypeNameIdentifier": "ModalButton",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Buttons",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 642496824,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Modal.Modal",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Modal"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowModal",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowModal",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ModalEvents",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "ModalEvents",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ModalTitle",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ModalTitle",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowModalCloseBtn",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "ShowModalCloseBtn",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Modal.Modal",
+          "Common.TypeNameIdentifier": "Modal",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Modal",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1845055998,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Modal.Modal",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Modal.Modal"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowModal",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowModal",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ModalEvents",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "ModalEvents",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ModalTitle",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ModalTitle",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowModalCloseBtn",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "ShowModalCloseBtn",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Modal.Modal",
+          "Common.TypeNameIdentifier": "Modal",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Modal",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1877069337,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Modal.Modal.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Modal"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Modal.Modal.ChildContent",
+          "Common.TypeNameIdentifier": "Modal",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Modal",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -161033556,
+        "Kind": "Components.ChildContent",
+        "Name": "blazor_forms.Shared.Components.Modal.Modal.ChildContent",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "blazor_forms.Shared.Components.Modal.Modal"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Modal.Modal.ChildContent",
+          "Common.TypeNameIdentifier": "Modal",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Modal",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
         "HashCode": 90421896,
         "Kind": "Components.Component",
         "Name": "blazor_forms.Shared.MainLayout",
@@ -15924,6 +16161,16 @@
     {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Buttons/ModalButton.razor",
+      "TargetPath": "Shared\\Components\\Buttons\\ModalButton.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Modal/Modal.razor",
+      "TargetPath": "Shared\\Components\\Modal\\Modal.razor",
       "FileKind": "component"
     },
     {
