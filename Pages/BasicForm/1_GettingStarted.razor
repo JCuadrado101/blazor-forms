@@ -1,0 +1,104 @@
+@page "/getstarted"
+@inject IDispatcher dispatcher
+@inject NavigationManager Navigation
+@using Microsoft.AspNetCore.WebUtilities
+
+<Title
+    Header="Let's get to know you"
+    Reference="Why am I being asked these questions?"
+    Description="First, we'll need some personal details."
+/>
+<EditForm Model="@BasicInfoModel" OnInvalidSubmit="@showValidation" OnValidSubmit="@EventAfterSubmit">
+    <DataAnnotationsValidator />
+    <CustomValidationAlertContainer Styling="@showIfInvalid">
+        <CustomValidationMessage For="@(() => BasicInfoModel.FirstName)" isValidationSummary="true" />
+        <CustomValidationMessage For="@(() => BasicInfoModel.LastName)" isValidationSummary="true"/>
+        <CustomValidationMessage For="@(() => BasicInfoModel.SSN)" isValidationSummary="true"/>
+        <CustomValidationMessage For="@(() => BasicInfoModel.DateOfBirth)" isValidationSummary="true"/>
+        <CustomValidationMessage For="@(() => BasicInfoModel.PhoneNumber)" isValidationSummary="true"/>
+    </CustomValidationAlertContainer>
+    <FormContainerComponent>
+        <TextInput Label="First Name" @bind-Value="BasicInfoModel.FirstName" ValidationFor="@(() => BasicInfoModel.FirstName)"/>
+        <TextInput Label="Last Name" @bind-Value="BasicInfoModel.LastName" ValidationFor="@(() => BasicInfoModel.LastName)"/>
+        <MaskInputComponent
+            Label="Serial Security Number/TIN"
+            @bind-Value="BasicInfoModel.SSN"
+            ValidationFor="@(() => BasicInfoModel.SSN)"
+            IsPrivate=true
+            data-mask="000-00-0000"
+            placeholder="SSN"
+        />
+        <MaskInputComponent
+            Label="Phone Number"
+            @bind-Value="BasicInfoModel.PhoneNumber"
+            ValidationFor="@(() => BasicInfoModel.PhoneNumber)"
+            data-mask="(000) 000-0000"
+            placeholder="(123) 123-4567"
+        />
+        @* NEED TO DESIGN CUSTOM DATE COMPONENT BELOW *@
+        <InputContainerComponent FieldLabelText="Date of Birth">
+            <InputDate @bind-Value="BasicInfoModel.DateOfBirth" class="input-style date-input"/>
+            <CustomValidationMessage For="@(() => BasicInfoModel.DateOfBirth)"/>
+        </InputContainerComponent>
+        @* NEED TO DESIGN CUSTOM DATE COMPONENT ABOVE *@
+        <div class="single-checkbox" style="display: flex; flex-direction: row; justify-content: center">
+            <InputCheckbox id="MailingAddress" @bind-Value="@BasicInfoModel.IsCallAccepted"/>
+            <label For="MailingAddress" class="mailing-label">	By checking this box, I agree to receive autodialed phone calls or text messages about any of my loan or share accounts at all mobile phone numbers that I provide to PSECU. I understand that I am not required to give this consent as a condition of receiving products or services from PSECU.</Label>
+        </div>
+    </FormContainerComponent>
+    @if(EditMode)
+    {
+        <ProgressButtonComponents OnClick="@Navigate" SubmitBtnName="Save"/>
+    }
+    else
+    {
+        <ProgressButtonComponents OnClick="@OnSubmit"/>
+    }
+</EditForm>
+
+@code
+{
+    [Parameter] public EventCallback EventAfterSubmit { get; set; }
+    BasicInfoModel BasicInfoModel = new BasicInfoModel();
+    private string? showIfInvalid = "display: none";
+    private void showValidation() => showIfInvalid = "display: block";
+    public void Navigate() 
+    {
+        @* dispatcher.Dispatch(new BasicInformationAction(
+            firstname: BasicInfoModel.FirstName!,
+            lastname: BasicInfoModel.LastName!,
+            ssn: BasicInfoModel.SSN!,
+            dateofbirth: BasicInfoModel.DateOfBirth,
+            phoneNumber: BasicInfoModel.PhoneNumber
+        )); *@
+        Navigation.NavigateTo("validate");
+    }
+
+
+    private bool EditMode = false;
+    private void OnSubmit()
+    {
+        @* dispatcher.Dispatch(new BasicInformationAction(
+            firstname: BasicInfoModel.FirstName!,
+            lastname: BasicInfoModel.LastName!,
+            ssn: BasicInfoModel.SSN!,
+            dateofbirth: BasicInfoModel.DateOfBirth,
+            phoneNumber: BasicInfoModel.PhoneNumber
+        )); *@
+    }
+    protected override void OnInitialized()
+    {
+        BasicInfoModel.FirstName = BasicInformation.Value.FirstName;
+        BasicInfoModel.LastName = BasicInformation.Value.LastName;
+        BasicInfoModel.DateOfBirth = BasicInformation.Value.DateOfBirth;
+        BasicInfoModel.SSN = BasicInformation.Value.Ssn;
+        BasicInfoModel.PhoneNumber = BasicInformation.Value.PhoneNumber;
+
+        var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
+
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("edit", out var _product))
+            {
+                EditMode = true;
+            }
+    }
+}
