@@ -1,0 +1,29 @@
+<div class="footer-container">
+    <div class="psecu-rights"> © @TodaysYear() PSECU. All Rights Reserved. </div>
+    <u>
+        <div class="links">
+            <div class="legal">
+                <a href="https://www.psecu.com/sitemap"> Legal </a>
+                <a href="https://www.psecu.com/sitemap"> Privacy </a>
+                <a href="https://www.psecu.com/sitemap"> Disclosures & Agreements</a>
+            </div>
+            <div class="insured"> Insured by 
+                <a href="https://www.psecu.com/disclosures/ncua">NCUA.</a>
+                <a href="https://cm.psecu.com/-/media/files/pdf/ncua/equal-housing.pdf?la=en&hash=56CF162DF32FB72E59C7D28B5E24381C6D585677">Equal Housing Lender.</a>
+            </div>
+        </div>
+    </u>
+    <div>
+        <a href="https://cm.psecu.com/-/media/files/pdf/ncua/equal-housing.pdf?la=en&hash=56CF162DF32FB72E59C7D28B5E24381C6D585677" class="px-1">
+            <img src="images/equal-housing- footer.svg" width="25" />
+        </a>
+        <a href="https://cm.psecu.com/disclosures/ncua" class="px-1">
+            <img src="images/ncua- footer.svg" width="60" />
+        </a>
+    </div>
+</div>
+
+@code 
+{
+   private int TodaysYear() => DateTime.Now.Year;
+}

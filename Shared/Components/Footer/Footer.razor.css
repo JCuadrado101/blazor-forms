@@ -1,0 +1,60 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 12px;
+    align-content: center;
+    margin: 20px 0px 30px 0px;
+}
+
+.psecu-rights {
+    color: gray;
+}
+
+.links {
+    display: flex; 
+    justify-content: space-around;
+    width: 525px;
+    margin: 0 10px;
+}
+
+.legal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+
+a {
+    color: teal;
+}
+
+@media(max-width: 865px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-size: 12px;
+        justify-content: space-around;
+        padding-top: 0px;
+        padding-bottom: 15px;
+        margin: -60px 0px 0px 0px;
+    }
+    .legal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        align-items: center;
+        height: 80px;
+
+    }
+}

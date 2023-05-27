@@ -157,6 +157,80 @@
         }
       },
       {
+        "HashCode": -2128021603,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Footer.Footer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Footer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Footer.Footer",
+          "Common.TypeNameIdentifier": "Footer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Footer",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1401799186,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Footer.Footer",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Footer.Footer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Footer.Footer",
+          "Common.TypeNameIdentifier": "Footer",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Footer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1263607938,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Header.Header",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Header"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
+          "Common.TypeNameIdentifier": "Header",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -215598109,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Header.Header",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Header.Header"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
+          "Common.TypeNameIdentifier": "Header",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 90421896,
         "Kind": "Components.Component",
         "Name": "blazor_forms.Shared.MainLayout",
@@ -260,80 +334,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 591538312,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.NavMenu",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "blazor_forms.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -908189432,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.NavMenu",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "blazor_forms.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1263607938,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Header.Header",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Header"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
-          "Common.TypeNameIdentifier": "Header",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -215598109,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Header.Header",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Shared.Components.Header.Header"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Header.Header",
-          "Common.TypeNameIdentifier": "Header",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Header",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {
@@ -15909,11 +15909,6 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
@@ -15921,6 +15916,11 @@
     {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Footer/Footer.razor",
+      "TargetPath": "Shared\\Components\\Footer\\Footer.razor",
       "FileKind": "component"
     },
     {
