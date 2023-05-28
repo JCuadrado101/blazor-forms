@@ -1,5 +1,77 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Blazor Forms</PageTitle>
 
-<_1_GettingStarted />
+<div>
+    <ProgressWizard WizardStep="@WizardProgress()"/>
+    @switch (WizardProgress())
+    {
+        case "1":
+            <_1_GettingStarted />
+        break;
+        case "2":
+            @* <CreateLogin EventAfterSubmit="OnSuccessfulSubmit" GoBackEvent="PreviousStep"/> *@
+        break;
+        case "3":
+            @* <Upload GoBackEvent="PreviousStep" NextStep="OnSuccessfulSubmit"/> *@
+        break;
+        case "4":
+            @* <MoreInformation EventAfterSubmit="OnSuccessfulSubmit" GoBackEvent="PreviousStep"/> *@
+        break;
+        case "5":
+            @* <TermsAndConditions GoBack="PreviousStep" EventAfterSubmit="OnSuccessfulSubmit"/> *@
+        break;
+        case "6":
+            @* <FundAccountStart GoBackEvent="PreviousStep" EventAfterSubmit="Navigate"/> *@
+            @* <Completed GoBackEvent="PreviousStep" EventAfterSubmit="Navigate" /> *@
+        break;
+        default:
+            <_1_GettingStarted />
+
+            @* <Account_Origination_Demo.Pages.Dashboard.DataValidation /> *@
+        break;
+    }
+</div>
+
+@code
+{
+    static private List<string> Steps = new List<string> { "1", "2", "3", "4", "5", "6", "7"};
+    static private string CurrentStep = "1";
+    private int currentIndex() => Steps.IndexOf(CurrentStep);
+    @* private void StoreStepIntoState() => dispatcher.Dispatch(new WizardProgressAction( wizardProgressStep: CurrentStep )); *@
+
+    private string WizardProgress()
+    {
+        @* var CurrentProgressStep = WizardProgressStep.Value.WizardProgressStep;
+
+        if(string.IsNullOrEmpty(CurrentProgressStep))
+        {
+            return "1";
+        }
+        else
+        {
+            return WizardProgressStep.Value.WizardProgressStep!;
+        } *@
+
+        return "1";
+    }
+
+    public void OnSuccessfulSubmit()
+    {
+        if (currentIndex() < Steps.Count - 1)
+        {
+            CurrentStep = Steps[currentIndex() + 1];
+        }
+            @* StoreStepIntoState(); *@
+    }
+
+    private void PreviousStep()
+    {
+        if (currentIndex() > 0)
+        {
+            CurrentStep = Steps[currentIndex() - 1];
+        }
+            @* StoreStepIntoState(); *@
+    }
+    @* private void Navigate() =>  Navigation.NavigateTo("Validate"); *@
+}

@@ -837,3 +837,4 @@
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Buttons/ProgressButton.razor.rz.scp.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Validation/CustomValidationAlertContainer.razor.rz.scp.css
 /Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/Form/Input/TextInput.razor.rz.scp.css
+/Users/jordancuadrado/Documents/blazor-forms/obj/Debug/net8.0/scopedcss/Shared/Components/ProgressWizard/ProgressWizard.razor.rz.scp.css

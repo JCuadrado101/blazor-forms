@@ -1,0 +1,73 @@
+@inject IJSRuntime JsRuntime;
+@* @inject IState<ABTestingState> ABTesting *@
+
+<div class="stepper-wrapper">
+  <div class="stepper-item @Stepper(1)">
+    <div class="step-name started"></div>
+    <div class="step-counter @Stepper(1)" style="@ShowCheckMark(1)">@CheckMark()</div>
+  </div>
+  <div class="stepper-item @Stepper(2)">
+    <div class="step-name username-password"></div>
+    <div class="step-counter @Stepper(2)" style="@ShowCheckMark(2)">@CheckMark()</div>
+  </div>
+  <div class="stepper-item @Stepper(3)">
+    <div class="step-name">Upload</div>
+    <div class="step-counter @Stepper(3)" style="@ShowCheckMark(3)">@CheckMark()</div>
+  </div>
+    <div class="stepper-item @Stepper(4)">
+    <div class="step-name">Identity</div>
+    <div class="step-counter @Stepper(4)" style="@ShowCheckMark(4)">@CheckMark()</div>
+  </div>
+  <div class="stepper-item @Stepper(5)">
+    <div class="step-name terms-and-conditions"></div>
+    <div class="step-counter @Stepper(5)" style="@ShowCheckMark(5)">@CheckMark()</div>
+  </div>
+  @* finished *@
+    <div class="stepper-item @Stepper(6)">
+    <div class="step-name ">Fund</div>
+    <div class="step-counter @Stepper(6)" style="@ShowCheckMark(6)">@CheckMark()</div>
+  </div>
+</div>
+<Divider BorderStyling="border: 1px solid lightgray"/>
+
+@code
+{
+  [Parameter]
+  public string? WizardStep { get; set; }
+  private string? CheckMark() => ((char)0x2713).ToString();
+
+
+  private string? Stepper(int step)
+  {
+    int CurrentStep = int.Parse(WizardStep!);
+
+    if(step == CurrentStep)
+    {
+      return "active";
+    }
+
+    if(step < CurrentStep)
+    {
+      return "completed";
+    }
+
+    return "";
+  }
+
+  private string? ShowCheckMark(int step)
+  {
+    int CurrentStep = int.Parse(WizardStep!);
+
+    if(step == CurrentStep)
+    {
+      return "color: transparent";
+    }
+
+    if(step < CurrentStep)
+    {
+      return "color: white";
+    }
+
+    return "color: transparent";
+  }
+}

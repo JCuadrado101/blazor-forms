@@ -1,0 +1,206 @@
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-bottom: 18px;
+  }
+
+  /* SHORT NAME */
+
+  .started::before {
+    content: "Started";
+  }
+
+  .username-password::before {
+    content: "Login";
+  }
+
+  .identity::before {
+    content: "Identity";
+  }
+
+  /* Identity => Upload */
+
+  .upload::before {
+    content: "Upload";
+  }
+
+  /* Upload -> Identity" */
+
+  .more::before {
+    content: "Promo";
+  }
+
+  .terms-and-conditions::before {
+    content: "Terms";
+  }
+
+  .finished::before {
+    content: "Fund";
+  }
+
+  .step-name {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  /* LONG NAME */
+
+  .started::after {
+    content: "Basic Info";
+    display: none;
+  }
+
+  .username-password::after {
+    content: "Create Login";
+    display: none;
+  }
+
+  .identity::after {
+    content: "Identity";
+    display: none;
+  }
+
+  .upload::after {
+    content: "Upload";
+    display: none;
+  }
+
+  .terms-and-conditions::after {
+    content: "Terms & Conditions";
+    display: none;
+  }
+
+  .finished::after {
+    content: "Add Funding";
+    display: none;
+  }
+
+  .step-name {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  /* Normal Size Circle */
+
+  .stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 6px solid #ededed;
+    width: 100%;
+    top: 42px;
+    left: -50%;
+    z-index: 2;
+  }
+  
+  .stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 6px solid #ededed;
+    width: 100%;
+    top: 42px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: white;
+    margin-bottom: 6px;
+  }
+  
+  .stepper-item.active {
+    font-weight: bold;    
+  }
+
+  .step-counter.active {
+    background-color: #177D78;
+  }
+
+  .stepper-item.completed .step-counter {
+    background-color: #2b8d88;
+  }
+  
+  .stepper-item.completed::after {
+    position: absolute;
+    content: "";
+    border-bottom: 6px solid #177D78;
+    width: 100%;
+    top: 42px;
+    left: 50%;
+    z-index: 3;
+  }
+  
+  .stepper-item:first-child::before {
+    content: none;
+  }
+  .stepper-item:last-child::after {
+    content: none;
+  }
+
+  /* Small Size Circle */
+
+
+  .stepper-item-small .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: white;
+    top: 27px;
+    }
+
+  .step-counter.active {
+    background-color: #177D78;
+  }
+
+  @media(min-width: 770px) {
+    .started::before, .username-password::before, .upload::before ,.terms-and-conditions::before, .finished::before {
+      display: none;
+    }
+
+    .started::after, .username-password::after, .upload::after ,.terms-and-conditions::after, .finished::after {
+      display: block;
+    }
+
+
+  }
+
+  @media(max-width: 1000px) {
+    .step-name {
+      font-size: 10px;
+    }
+    .stepper-item::before, .stepper-item::after, .stepper-item.completed::after {
+      top: 37px;
+    }
+
+    .stepper-item-small .step-counter {
+      top: 22px;
+      }
+  
+  }

@@ -366,6 +366,213 @@ a[b-lx5uuwzknn] {
       width: 90%;
     }
   }
+/* /Shared/Components/ProgressWizard/ProgressWizard.razor.rz.scp.css */
+.stepper-wrapper[b-5b23bqzvqm] {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-bottom: 18px;
+  }
+
+  /* SHORT NAME */
+
+  .started[b-5b23bqzvqm]::before {
+    content: "Started";
+  }
+
+  .username-password[b-5b23bqzvqm]::before {
+    content: "Login";
+  }
+
+  .identity[b-5b23bqzvqm]::before {
+    content: "Identity";
+  }
+
+  /* Identity => Upload */
+
+  .upload[b-5b23bqzvqm]::before {
+    content: "Upload";
+  }
+
+  /* Upload -> Identity" */
+
+  .more[b-5b23bqzvqm]::before {
+    content: "Promo";
+  }
+
+  .terms-and-conditions[b-5b23bqzvqm]::before {
+    content: "Terms";
+  }
+
+  .finished[b-5b23bqzvqm]::before {
+    content: "Fund";
+  }
+
+  .step-name[b-5b23bqzvqm] {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  /* LONG NAME */
+
+  .started[b-5b23bqzvqm]::after {
+    content: "Basic Info";
+    display: none;
+  }
+
+  .username-password[b-5b23bqzvqm]::after {
+    content: "Create Login";
+    display: none;
+  }
+
+  .identity[b-5b23bqzvqm]::after {
+    content: "Identity";
+    display: none;
+  }
+
+  .upload[b-5b23bqzvqm]::after {
+    content: "Upload";
+    display: none;
+  }
+
+  .terms-and-conditions[b-5b23bqzvqm]::after {
+    content: "Terms & Conditions";
+    display: none;
+  }
+
+  .finished[b-5b23bqzvqm]::after {
+    content: "Add Funding";
+    display: none;
+  }
+
+  .step-name[b-5b23bqzvqm] {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  /* Normal Size Circle */
+
+  .stepper-item[b-5b23bqzvqm] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .stepper-item[b-5b23bqzvqm]::before {
+    position: absolute;
+    content: "";
+    border-bottom: 6px solid #ededed;
+    width: 100%;
+    top: 42px;
+    left: -50%;
+    z-index: 2;
+  }
+  
+  .stepper-item[b-5b23bqzvqm]::after {
+    position: absolute;
+    content: "";
+    border-bottom: 6px solid #ededed;
+    width: 100%;
+    top: 42px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .stepper-item .step-counter[b-5b23bqzvqm] {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: white;
+    margin-bottom: 6px;
+  }
+  
+  .stepper-item.active[b-5b23bqzvqm] {
+    font-weight: bold;    
+  }
+
+  .step-counter.active[b-5b23bqzvqm] {
+    background-color: #177D78;
+  }
+
+  .stepper-item.completed .step-counter[b-5b23bqzvqm] {
+    background-color: #2b8d88;
+  }
+  
+  .stepper-item.completed[b-5b23bqzvqm]::after {
+    position: absolute;
+    content: "";
+    border-bottom: 6px solid #177D78;
+    width: 100%;
+    top: 42px;
+    left: 50%;
+    z-index: 3;
+  }
+  
+  .stepper-item:first-child[b-5b23bqzvqm]::before {
+    content: none;
+  }
+  .stepper-item:last-child[b-5b23bqzvqm]::after {
+    content: none;
+  }
+
+  /* Small Size Circle */
+
+
+  .stepper-item-small .step-counter[b-5b23bqzvqm] {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: white;
+    top: 27px;
+    }
+
+  .step-counter.active[b-5b23bqzvqm] {
+    background-color: #177D78;
+  }
+
+  @media(min-width: 770px) {
+    .started[b-5b23bqzvqm]::before, .username-password[b-5b23bqzvqm]::before, .upload[b-5b23bqzvqm]::before ,.terms-and-conditions[b-5b23bqzvqm]::before, .finished[b-5b23bqzvqm]::before {
+      display: none;
+    }
+
+    .started[b-5b23bqzvqm]::after, .username-password[b-5b23bqzvqm]::after, .upload[b-5b23bqzvqm]::after ,.terms-and-conditions[b-5b23bqzvqm]::after, .finished[b-5b23bqzvqm]::after {
+      display: block;
+    }
+
+
+  }
+
+  @media(max-width: 1000px) {
+    .step-name[b-5b23bqzvqm] {
+      font-size: 10px;
+    }
+    .stepper-item[b-5b23bqzvqm]::before, .stepper-item[b-5b23bqzvqm]::after, .stepper-item.completed[b-5b23bqzvqm]::after {
+      top: 37px;
+    }
+
+    .stepper-item-small .step-counter[b-5b23bqzvqm] {
+      top: 22px;
+      }
+  
+  }
 /* /Shared/Components/Title/Title.razor.rz.scp.css */
 a[b-spcv6xjfg7] {
     cursor: pointer

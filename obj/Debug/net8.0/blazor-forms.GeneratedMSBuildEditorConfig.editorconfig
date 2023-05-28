@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Divider/Divider.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRGl2aWRlci9EaXZpZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -83,6 +87,10 @@ build_metadata.AdditionalFiles.CssScope = b-nucf7rjl2v
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Modal/Modal.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTW9kYWwvTW9kYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-1blu7h36js
+
+[/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/ProgressWizard/ProgressWizard.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvUHJvZ3Jlc3NXaXphcmQvUHJvZ3Jlc3NXaXphcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5b23bqzvqm
 
 [/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Title/Title.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvVGl0bGUvVGl0bGUucmF6b3I=

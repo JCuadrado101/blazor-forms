@@ -1275,6 +1275,101 @@
         }
       },
       {
+        "HashCode": 1532762428,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Title.Title",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Title"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Header",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Header",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Reference",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Reference",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Description",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
+          "Common.TypeNameIdentifier": "Title",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1701447829,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.Title.Title",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.Title.Title"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Header",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Header",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Reference",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Reference",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Description",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
+          "Common.TypeNameIdentifier": "Title",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -1263607938,
         "Kind": "Components.Component",
         "Name": "blazor_forms.Shared.Components.Header.Header",
@@ -1414,96 +1509,119 @@
         }
       },
       {
-        "HashCode": 1532762428,
+        "HashCode": -722464662,
         "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Title.Title",
+        "Name": "blazor_forms.Shared.Components.Divider.Divider",
         "AssemblyName": "blazor-forms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Title"
+            "TagName": "Divider"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Header",
+            "Name": "BorderStyling",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Header",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Reference",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Reference",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Description",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Description",
+              "Common.PropertyName": "BorderStyling",
               "Common.GloballyQualifiedTypeName": "global::System.String"
             }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
-          "Common.TypeNameIdentifier": "Title",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
+          "Common.TypeName": "blazor_forms.Shared.Components.Divider.Divider",
+          "Common.TypeNameIdentifier": "Divider",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Divider",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1701447829,
+        "HashCode": -1422450235,
         "Kind": "Components.Component",
-        "Name": "blazor_forms.Shared.Components.Title.Title",
+        "Name": "blazor_forms.Shared.Components.Divider.Divider",
         "AssemblyName": "blazor-forms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "blazor_forms.Shared.Components.Title.Title"
+            "TagName": "blazor_forms.Shared.Components.Divider.Divider"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Header",
+            "Name": "BorderStyling",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Header",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Reference",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Reference",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Description",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Description",
+              "Common.PropertyName": "BorderStyling",
               "Common.GloballyQualifiedTypeName": "global::System.String"
             }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "blazor_forms.Shared.Components.Title.Title",
-          "Common.TypeNameIdentifier": "Title",
-          "Common.TypeNamespace": "blazor_forms.Shared.Components.Title",
+          "Common.TypeName": "blazor_forms.Shared.Components.Divider.Divider",
+          "Common.TypeNameIdentifier": "Divider",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.Divider",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 462041625,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.ProgressWizard.ProgressWizard",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProgressWizard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "WizardStep",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "WizardStep",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.ProgressWizard.ProgressWizard",
+          "Common.TypeNameIdentifier": "ProgressWizard",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.ProgressWizard",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1454781279,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Shared.Components.ProgressWizard.ProgressWizard",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Shared.Components.ProgressWizard.ProgressWizard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "WizardStep",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "WizardStep",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Shared.Components.ProgressWizard.ProgressWizard",
+          "Common.TypeNameIdentifier": "ProgressWizard",
+          "Common.TypeNamespace": "blazor_forms.Shared.Components.ProgressWizard",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -1615,43 +1733,6 @@
         }
       },
       {
-        "HashCode": 931480466,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.Index",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1223089280,
-        "Kind": "Components.Component",
-        "Name": "blazor_forms.Pages.Index",
-        "AssemblyName": "blazor-forms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor_forms.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "blazor_forms.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "blazor_forms.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -762569731,
         "Kind": "Components.Component",
         "Name": "blazor_forms.Pages.BasicForm._1_GettingStarted",
@@ -1708,6 +1789,43 @@
           "Common.TypeName": "blazor_forms.Pages.BasicForm._1_GettingStarted",
           "Common.TypeNameIdentifier": "_1_GettingStarted",
           "Common.TypeNamespace": "blazor_forms.Pages.BasicForm",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 931480466,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Pages.Index",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "blazor_forms.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1223089280,
+        "Kind": "Components.Component",
+        "Name": "blazor_forms.Pages.Index",
+        "AssemblyName": "blazor-forms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor_forms.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "blazor_forms.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "blazor_forms.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -17480,6 +17598,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Divider/Divider.razor",
+      "TargetPath": "Shared\\Components\\Divider\\Divider.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Modal/Modal.razor",
       "TargetPath": "Shared\\Components\\Modal\\Modal.razor",
       "FileKind": "component"
@@ -17497,6 +17620,11 @@
     {
       "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/Buttons/ProgressButton.razor",
       "TargetPath": "Shared\\Components\\Buttons\\ProgressButton.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/jordancuadrado/Documents/blazor-forms/Shared/Components/ProgressWizard/ProgressWizard.razor",
+      "TargetPath": "Shared\\Components\\ProgressWizard\\ProgressWizard.razor",
       "FileKind": "component"
     },
     {
