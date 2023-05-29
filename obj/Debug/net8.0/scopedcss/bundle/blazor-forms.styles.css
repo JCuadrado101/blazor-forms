@@ -202,6 +202,7 @@ a[b-lx5uuwzknn] {
     display: flex;
     flex-direction: column;
     max-width: 550px;
+    width: 100em;
     margin: 10px auto;
 
     > .field-label-text {

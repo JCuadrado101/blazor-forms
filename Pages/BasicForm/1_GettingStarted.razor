@@ -4,9 +4,9 @@
 @* @using Microsoft.AspNetCore.WebUtilities *@
 
 <Title
-    Header="Let's get to know you"
+    Header="Lorem ipsum dolor"
     Reference="Why am I being asked these questions?"
-    Description="First, we'll need some personal details."
+    Description="Ut enim ad minim veniam."
 />
 <EditForm Model="@BasicInfoModel" OnInvalidSubmit="@showValidation" OnValidSubmit="@EventAfterSubmit">
     <DataAnnotationsValidator />
@@ -41,10 +41,6 @@
             <CustomValidationMessage For="@(() => BasicInfoModel.DateOfBirth)"/>
         </InputContainer>
         @* NEED TO DESIGN CUSTOM DATE COMPONENT ABOVE *@
-        <div class="single-checkbox" style="display: flex; flex-direction: row; justify-content: center">
-            <InputCheckbox id="MailingAddress" @bind-Value="@BasicInfoModel.IsCallAccepted"/>
-            <label For="MailingAddress" class="mailing-label">	By checking this box, I agree to receive autodialed phone calls or text messages about any of my loan or share accounts at all mobile phone numbers that I provide to PSECU. I understand that I am not required to give this consent as a condition of receiving products or services from PSECU.</Label>
-        </div>
     </FormContainer>
     @if(EditMode)
     {
