@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tiCTxnL6SUvB+U2XIW/ITJw+Qh+6j6aVOfiJGX4lzxk=",
+  "Hash": "ekIpRGS3j30UB0IuLfJEl1IphS9MC7uFTr62INlfBHY=",
   "Source": "blazor-forms",
   "BasePath": "/",
   "Mode": "Root",
@@ -7121,6 +7121,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/js/masking-ssn.js",
+      "SourceId": "blazor-forms",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "js/masking-ssn.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/masking-ssn.js"
     }
   ]
 }

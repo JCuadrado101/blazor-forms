@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[8.0.100-1.23067.1, )",
               "autoReferenced": true
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.0, )"
             }
           },
           "imports": [

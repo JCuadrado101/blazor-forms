@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets/index.html"
     },
     {
+      "Id": "/Users/jordancuadrado/Documents/blazor-forms/wwwroot/js/masking-ssn.js",
+      "PackagePath": "staticwebassets/js/masking-ssn.js"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.blazor-forms.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

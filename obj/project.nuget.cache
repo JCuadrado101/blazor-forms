@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cdeKXYcaLWtOxbKvyxBnbI4VOlaLFSc/o1aJZEouj462HNurYCA5Y5suhVCZqO6VDdOo8Rrwj4VjR6OudEQ0nQ==",
+  "dgSpecHash": "lA226Gm1B7NuZkXqkXESNi0nnZNBb0e3WWurr7KVyDMDXHPX58fy6c3o6A1AHrkX3nrW6ThL71Ope0t+sm5hQQ==",
   "success": true,
   "projectFilePath": "/Users/jordancuadrado/Documents/blazor-forms/blazor-forms.csproj",
   "expectedPackageFiles": [
+    "/Users/jordancuadrado/.nuget/packages/jquery/3.7.0/jquery.3.7.0.nupkg.sha512",
     "/Users/jordancuadrado/.nuget/packages/microsoft.aspnetcore.authorization/8.0.0-preview.1.23112.2/microsoft.aspnetcore.authorization.8.0.0-preview.1.23112.2.nupkg.sha512",
     "/Users/jordancuadrado/.nuget/packages/microsoft.aspnetcore.components/8.0.0-preview.1.23112.2/microsoft.aspnetcore.components.8.0.0-preview.1.23112.2.nupkg.sha512",
     "/Users/jordancuadrado/.nuget/packages/microsoft.aspnetcore.components.analyzers/8.0.0-preview.1.23112.2/microsoft.aspnetcore.components.analyzers.8.0.0-preview.1.23112.2.nupkg.sha512",

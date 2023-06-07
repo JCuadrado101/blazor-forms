@@ -20,6 +20,14 @@
     <FormContainer>
         <TextInput Label="First Name" @bind-Value="BasicInfoModel.FirstName" ValidationFor="@(() => BasicInfoModel.FirstName)"/>
         <TextInput Label="Last Name" @bind-Value="BasicInfoModel.LastName" ValidationFor="@(() => BasicInfoModel.LastName)"/>
+        <MaskInput
+            Label="Serial Security Number/TIN"
+            @bind-Value="BasicInfoModel.SSN"
+            ValidationFor="@(() => BasicInfoModel.SSN)"
+            IsPrivate=true
+            data-mask="000-00-0000"
+            placeholder="SSN"
+        />
         @* <MaskInputComponent
             Label="Serial Security Number/TIN"
             @bind-Value="BasicInfoModel.SSN"
